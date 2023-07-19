@@ -1,0 +1,146 @@
+p{
+    border: 3px solid  rgb(170, 200, 21);
+}
+
+
+a:visited {
+    color: tomato;
+}
+
+.png{
+    float:right;
+    width: 50px;
+    height: 50px;
+}
+ #urb{
+    border: none;
+ }
+
+.title{
+    color: rgb(170, 200, 21);
+    text-align: left;
+}
+
+#first-code{
+
+    color: rgb(170, 200, 21);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.box p {
+    color: rgb(0, 255, 149);
+    text-align:center;
+    border-color: black;
+    padding: 50px 50px;
+    margin: 50px 50px;
+    width: 200px;
+    height: 20px;
+    
+}
+.center{
+width: 50%;
+height: 50%;
+margin: auto;
+display: block;
+
+}
+
+.box p{
+    font-family: roboto, sans-serif;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    
+    
+
+}
+.id{
+    text-align: center;
+    text-decoration-color: black;
+}
+
+#class{
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 50px 50px;
+    margin: 50px 50px;
+    width: 300px;
+    height: 450px;
+
+}
+
+
+body{
+    background-color: #08603ee0;
+}
+
+*{box-sizing: border-box}
+
+.prg1{
+    border: none;
+} 
+
+.prg2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+  input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 10%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 100px) {
+  .cancelbtn, .signupbtn {
+    width: 50%;
+  }
+}
